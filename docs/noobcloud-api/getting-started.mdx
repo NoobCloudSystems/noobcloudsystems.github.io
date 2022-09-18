@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 You can access important information via the NoobCloudAPI, or send commands directly to the cloud. Use NoobCloudAPI as a dependency within your project to create extensions and plugins more comfortably. Here you will learn how to add NoobCloudAPI as a dependency and how to work with it later on.
 
-The [KDocs/JavaDocs](https://docs.luccboy.tk/noobcloud) can help you with questions and give you an overview of all functions of the NoobCloudAPI.
+The [KDocs/JavaDocs](https://noobcloudsystems.github.io/docs/noobcloud) can help you with questions and give you an overview of all functions of the NoobCloudAPI.
 
 ## Repositories
 
@@ -26,8 +26,8 @@ The [KDocs/JavaDocs](https://docs.luccboy.tk/noobcloud) can help you with questi
 
 ```xml
 <repository>
-    <id>luccboy-repo</id>
-    <url>https://repo.luccboy.tk</url>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
 </repository>
 ```
 
@@ -35,14 +35,14 @@ The [KDocs/JavaDocs](https://docs.luccboy.tk/noobcloud) can help you with questi
 <TabItem value="gradle-groovy">
 
 ```groovy
-maven { url 'https://repo.luccboy.tk' }
+maven { url 'https://jitpack.io' }
 ```
 
 </TabItem>
 <TabItem value="gradle-kotlin">
 
 ```kotlin
-maven("https://repo.luccboy.tk")
+maven("https://jitpack.io")
 ```
 
 </TabItem>
@@ -62,7 +62,7 @@ maven("https://repo.luccboy.tk")
 
 ```xml
 <dependency>
-    <groupId>xyz.luccboy.noobcloud</groupId>
+    <groupId>com.github.NoobCloudSystems.NoobCloud</groupId>
     <artifactId>api</artifactId>
     <version>1.0-SNAPSHOT</version>
     <scope>provided</scope>
@@ -73,14 +73,14 @@ maven("https://repo.luccboy.tk")
 <TabItem value="gradle-groovy">
 
 ```groovy
-compileOnly 'xyz.luccboy.noobcloud:api:1.0-SNAPSHOT'
+compileOnly 'com.github.NoobCloudSystems.NoobCloud:api:1.0-SNAPSHOT'
 ```
 
 </TabItem>
 <TabItem value="gradle-kotlin">
 
 ```kotlin
-compileOnly("xyz.luccboy.noobcloud:api:1.0-SNAPSHOT")
+compileOnly("com.github.NoobCloudSystems.NoobCloud:api:1.0-SNAPSHOT")
 ```
 
 </TabItem>
