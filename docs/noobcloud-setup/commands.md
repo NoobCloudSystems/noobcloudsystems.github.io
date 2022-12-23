@@ -12,10 +12,13 @@ This page informs you about all available commands of NoobCloud.
 - `clear` - Clears the console
 - `stop` - Stops the cloud and all servers
 - `group` - Created, deletes or edits a group
-    - `group create <proxy/game> <display> <lobby>` - Creates a group
-        - `proxy/game` - Indicates wheter you want to create a proxy or a game group
+    - `group create proxy <display> <static>` - Creates a proxy group
         - `display` - The name of the group
-        - `lobby` - Indicates wheter the group is a lobby-group or not, only provide this argument if you create a game-group
+        - `static` - Indicates wheter the group is static or not
+    - `group create game <display> <lobby> <static>` - Creates a game group
+        - `display` - The name of the group
+        - `lobby` - Indicates wheter the group is a lobby-group or not
+        - `static` - Indicates wheter the group is static or not
     - `group delete <display>` - Deletes a group
         - `display` - The name of the group
 - `server` - Starts or stops a server
