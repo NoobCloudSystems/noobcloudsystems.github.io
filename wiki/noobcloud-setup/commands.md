@@ -14,11 +14,11 @@ This page informs you about all available commands of NoobCloud.
 - `group` - Created, deletes or edits a group
     - `group create proxy <display> <static>` - Creates a proxy group
         - `display` - The name of the group
-        - `static` - Indicates wheter the group is static or not
+        - `static` - Indicates whether the group is static or not
     - `group create game <display> <lobby> <static>` - Creates a game group
         - `display` - The name of the group
-        - `lobby` - Indicates wheter the group is a lobby-group or not
-        - `static` - Indicates wheter the group is static or not
+        - `lobby` - Indicates whether the group is a lobby-group or not
+        - `static` - Indicates whether the group is static or not
     - `group delete <display>` - Deletes a group
         - `display` - The name of the group
 - `server` - Starts or stops a server

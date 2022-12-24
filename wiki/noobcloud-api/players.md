@@ -20,7 +20,7 @@ You can connect a player to a server using ```CloudPlayer#connect(String serverN
 
 ## UUID and Username
 
-NoobCloudAPI stores the username and `UUID` of each player in a database assuming you enabled this feature in the `config.yml`(Read again the following explenation: [configuration](/docs/noobcloud-setup/configuration#configyml)). This allows you to check whether a player has already been online on your server network. In addition, you can get the username of an offline player from their `UUID` and vice versa:
+NoobCloudAPI stores the username and `UUID` of each player in a database assuming you enabled this feature in the `config.yml`(Read again the following explanation: [configuration](/wiki/noobcloud-setup/configuration#configyml)). This allows you to check whether a player has already been online on your server network. In addition, you can get the username of an offline player from their `UUID` and vice versa:
 ```java
 Optional<String> username = NoobCloudAPI.getInstance().getUsernameByUUID(UUID uuid);
 Optional<UUID> uuid = NoobCloudAPI.getInstance().getUUIDByUsername(String username);

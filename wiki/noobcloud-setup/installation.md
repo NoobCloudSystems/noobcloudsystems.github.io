@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Installation
 
-Before installing, make sure to read and fulfill the [requirements](/docs/noobcloud-setup/requirements).
+Before installing, make sure to read and fulfill the [requirements](/wiki/noobcloud-setup/requirements).
 
 ## Download and first start
 

@@ -44,7 +44,7 @@ games:
 - `minAmount`: The minimum amount of servers of this group
 - `maxAmount`: The maximum amount of servers of this group
 - `startPlayerCount`: The amount of players which have to be on a server of this group so that a new server will be started
-- `lobby`: The boolean indicating wheter this group is a lobby-group, this means that when a player joins he will only be sent to these lobby-groups
+- `lobby`: The boolean indicating whether this group is a lobby-group, this means that when a player joins he will only be sent to these lobby-groups
 
 ## proxy-groups.yml
 
