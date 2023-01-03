@@ -30,6 +30,9 @@ This page informs you about all available commands of NoobCloud.
     - `display-id` - The name of the server you want to receive the console-output, for example: `lobby-1`
 - `restart` - Restart a whole group
     - `group` - The name of the group
+- `cmd` - Sends a command to a server
+  - `display-id` - The name of the server you want to execute the command, for example: `lobby-1`
+  - `command` - The command which you want to execute
 ## Ingame-commands
 - `/cloud` or `/noobcloud` - Gives you an overview of all commands, you need the permission `noobcloud.admin` to access the following commands:
     - `/cloud listGroups` - Gives you a list of all groups
